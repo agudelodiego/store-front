@@ -1,0 +1,31 @@
+<div class="card">
+  <img [src]="img" class="card-img-top cardimg" alt="...">
+  <div class="card-body">
+    <div>
+      <fa-icon [icon]="starIcon" class="gold"></fa-icon>
+      <fa-icon [icon]="starIcon" class="gold"></fa-icon>
+      <fa-icon [icon]="starIcon" class="gold"></fa-icon>
+      <fa-icon [icon]="starIcon" class="gold"></fa-icon>
+      <fa-icon [icon]="starIcon" class="gold"></fa-icon>
+    </div>
+    <h5 class="card-title">{{name}}</h5>
+    <p class="card-text">{{sumary}}</p>
+    <div class="w-100 d-flex justify-content-between">
+      <div>
+        <h5 class="d-inline">{{price}} usd</h5>
+        <fa-icon class="text-success ms-1" [icon]="dollarIcon"></fa-icon>
+      </div>
+      <div>
+        <button class="btnicon">
+          <fa-icon [icon]="favoriteIcon" class="favorite"></fa-icon>
+        </button>
+        <button type="button" class="btnicon">
+          <fa-icon class="cart ms-2" [icon]="cartIcon"></fa-icon>
+        </button>
+        <button type="button" class="btnicon">
+          <fa-icon class="eye ms-2" [icon]="eyeIcon"></fa-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+}
+.search{
+  width: 25rem;
+}

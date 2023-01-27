@@ -1,0 +1,34 @@
+.btnicon{
+  border: none;
+  background-color: inherit;
+  font-size: 1.5rem;
+}
+.favorite{
+  color: black;
+  transition: color .3s ease;
+}
+.favorite:hover{
+  color: red;
+}
+.cart{
+  color:black;
+  transition: color .3s ease-in;
+}
+.cart:hover{
+  color: green;
+}
+.cardimg{
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+}
+.card{
+  width: 100%;
+}
+.eye{
+  color: black;
+  transition: color .3s ease-out;
+}
+.eye:hover{
+  color:steelblue;
+}

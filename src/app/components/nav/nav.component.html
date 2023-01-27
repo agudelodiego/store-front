@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="nav-link relative d-inline" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+      <fa-icon class="ps-3 icon" [icon]="cartIcon"></fa-icon>
+      <span class="ms-1">Cart</span>
+      <span class="animate"></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item my-3">
+          <a class="nav-link d-inline relative" aria-current="page" href="#">
+            <fa-icon class="ms-2 icon" [icon]="homeIcon"></fa-icon>
+            <span class="ms-1">Home</span>
+            <span class="animate"></span>
+          </a>
+        </li>
+        <li class="nav-item my-3">
+          <a class="nav-link d-inline relative" aria-current="page" href="#">
+            <fa-icon class="ms-2 icon" [icon]="userIcon"></fa-icon>
+            <span class="ms-2">Profile</span>
+            <span class="animate"></span>
+          </a>
+        </li>
+        <li class="nav-item my-3">
+          <a class="nav-link d-inline relative" href="#" >
+            <fa-icon class="ms-2 icon red" [icon]="favoriteIcon"></fa-icon>
+            <span class="ms-1">
+              Favorites
+            </span>
+            <span class="animate"></span>
+          </a>
+        </li>
+        <li class="nav-item my-3">
+          <a class="nav-link d-inline relative" href="#" >
+            <fa-icon class="ms-2 icon gold" [icon]="creditIcon"></fa-icon>
+            <span class="ms-1">
+              Pay info
+            </span>
+            <span class="animate"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<app-shopingcart></app-shopingcart>
