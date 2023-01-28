@@ -8,4 +8,5 @@ import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
 })
 export class ShopingcartComponent {
   closeIcon = faCircleXmark;
+  total = 100;
 }

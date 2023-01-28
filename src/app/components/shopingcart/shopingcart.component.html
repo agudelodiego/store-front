@@ -1,4 +1,4 @@
-<div class="offcanvas offcanvas-start bg-custom" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
   <div class="offcanvas-header">
     <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
       Shopping cart
@@ -8,8 +8,8 @@
       <fa-icon [icon]="closeIcon" class="text-danger close"></fa-icon>
     </button>
   </div>
-  <div class="offcanvas-body">
-    <div class="d-flex flex-column">
+  <div class="offcanvas-body mb-5 pb-5">
+    <div class="d-flex flex-column mb-3">
       <app-cart-item></app-cart-item>
       <app-cart-item></app-cart-item>
       <app-cart-item></app-cart-item>
@@ -21,5 +21,17 @@
       <app-cart-item></app-cart-item>
       <app-cart-item></app-cart-item>
     </div>
+  </div>
+  <div class="position-absolute bottom-0 w-100 d-flex justify-content-center py-4 bg-light">
+    <div>
+      <p class="p-0 m-0 text-secondary">Total</p>
+      <h5>{{total}}$</h5>
+    </div>
+    <button class="btn btn-danger mx-5">
+      Leave cart
+    </button>
+    <button class="btn btn-success">
+      Go to pay
+    </button>
   </div>
 </div>

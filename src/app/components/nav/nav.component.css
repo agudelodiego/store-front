@@ -14,14 +14,14 @@
   z-index: -10;
 }
 .nav-link:hover .animate{
-  animation: navAnimation .7s ease-in-out forwards; 
+  animation: navAnimation .3s ease-in-out forwards; 
 }
 .nav-link:hover .icon{
   color: white;
 }
 .red{
   color: inherit;
-  transition: color .6s;
+  transition: color .3s;
 }
 .nav-link:hover .red{
   color: red;

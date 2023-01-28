@@ -1,0 +1,44 @@
+.userImg_container{
+  position: relative;
+  top: 0;
+  height: 30vh;
+  border-radius: 0 0 2rem 2rem;
+  background-color: lightskyblue;
+}
+.userImg{
+  background-color: white;
+  padding: 8px;
+  position: absolute;
+  top: calc(30vh - 11rem);
+  left: calc(50vw - 11rem);
+  width: 22rem;
+  height: 22rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.userInfo_container{
+  margin-top: 13rem;
+  padding: 0 2rem;
+}
+.userInfo_item{
+  margin: .5rem 0;
+}
+._icon{
+  font-size: 2rem;
+  color: lightskyblue;
+}
+@media screen and (min-width: 1000px){
+  .userImg{
+    top: calc(30vh - 8rem);
+    left: calc(50vw - 8rem);
+    width: 16rem;
+    height: 16rem;
+  }
+  .userInfo_container{
+    margin-top: 8rem;
+    padding: 0 14rem;
+  }
+}
+h5{
+  font-size: 1.4rem;
+}

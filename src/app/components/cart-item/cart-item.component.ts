@@ -14,5 +14,5 @@ export class CartItemComponent {
   plusIcon = faPlus;
   lessIcon = faMinus;
   deleteIcon = faTrash;
-  total = 13;
+  subtotal = 13;
 }

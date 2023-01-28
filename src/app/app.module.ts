@@ -12,6 +12,8 @@ import { SearchComponent } from './components/search/search.component';
 import { ButtonComponent } from './components/button/button.component';
 import { FiltersComponent } from './components/filters/filters.component';
 import { CartItemComponent } from './components/cart-item/cart-item.component';
+import { ProfileComponent } from './pages/profile/profile.component';
+import { FavoritesComponent } from './pages/favorites/favorites.component';
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import { CartItemComponent } from './components/cart-item/cart-item.component';
     SearchComponent,
     ButtonComponent,
     FiltersComponent,
-    CartItemComponent
+    CartItemComponent,
+    ProfileComponent,
+    FavoritesComponent
   ],
   imports: [
     BrowserModule,
