@@ -1,0 +1,16 @@
+.cartImg{
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.delete{
+  color: inherit;
+  transition: color .3s ease-in-out;
+}
+.delete:hover{
+  color: red;
+}
+cartItem{
+  font-size: .8rem;
+}

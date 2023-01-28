@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-shopingcart',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls:['./shopingcart.component.css']
 })
 export class ShopingcartComponent {
-
+  closeIcon = faCircleXmark;
 }

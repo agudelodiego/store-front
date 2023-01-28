@@ -11,6 +11,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { SearchComponent } from './components/search/search.component';
 import { ButtonComponent } from './components/button/button.component';
 import { FiltersComponent } from './components/filters/filters.component';
+import { CartItemComponent } from './components/cart-item/cart-item.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { FiltersComponent } from './components/filters/filters.component';
     HomeComponent,
     SearchComponent,
     ButtonComponent,
-    FiltersComponent
+    FiltersComponent,
+    CartItemComponent
   ],
   imports: [
     BrowserModule,

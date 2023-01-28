@@ -1,0 +1,21 @@
+<div class="w-100 cartItem my-2 p-3 d-flex align-items-center justify-content-between rounded border border-2">
+  <img [src]="img" alt="Product Image" class="cartImg">
+  <div>
+    <p class="p-0 m-0 text-secondary">Name</p>
+    <h5 class="m-0 p-0">{{name}}</h5>
+  </div>
+  <div>
+    <p class="p-0 m-0 text-secondary">Price</p>  
+    <h5 class="m-0 p-0">{{price}}$</h5>
+  </div>
+  <div class="p-0 m-0 d-flex flex-column justify-content-center align-items-center">
+    <fa-icon [icon]="plusIcon" class="text-success"></fa-icon>
+    <h5 class="my-1 p-0">{{unids}}</h5>
+    <fa-icon [icon]="lessIcon" class="text-danger"></fa-icon>
+  </div>
+  <div>
+    <p class="p-0 m-0 text-secondary">total</p> 
+    <h5 class="m-0 p-0">{{total}}$</h5>
+  </div>
+  <fa-icon [icon]="deleteIcon" class="m-0 p-0 delete icon"></fa-icon>
+</div>
